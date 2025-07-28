@@ -60,9 +60,9 @@ const Index = () => {
                   🎮 НОВАЯ ИГРА ДОСТУПНА
                 </Badge>
                 <h1 className="text-5xl lg:text-7xl font-black text-white leading-tight">
-                  ROBLOX
-                  <span className="block text-roblox-blue">GAMING</span>
-                  <span className="block text-roblox-orange">ARENA</span>
+                  RUSSIAN
+                  <span className="block text-roblox-blue">CORN</span>
+                  <span className="block text-roblox-orange">FARMING</span>
                 </h1>
                 <p className="text-xl text-gray-300 max-w-md">
                   Присоединяйся к эпическим приключениям в мире пикселей! 
