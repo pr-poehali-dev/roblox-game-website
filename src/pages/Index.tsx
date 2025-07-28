@@ -45,7 +45,13 @@ const Index = () => {
     <div className="min-h-screen bg-gradient-to-br from-slate-950 via-blue-950 to-purple-950">
       {/* Hero Section */}
       <section className="relative overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-r from-roblox-blue/20 to-roblox-orange/20"></div>
+        <div 
+          className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+          style={{
+            backgroundImage: `url('https://cdn.poehali.dev/files/b9dfb62b-f531-43e9-ad18-0befa4fe9126.jpg')`
+          }}
+        />
+        <div className="absolute inset-0 bg-gradient-to-r from-black/70 via-black/50 to-black/70"></div>
         <div className="relative container mx-auto px-4 py-20">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div className="space-y-8">
